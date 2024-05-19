@@ -2,13 +2,13 @@
 # Introduction
 📉 Fraud Detection Analysis: This project explores the detection of fraudulent online payment transactions. By analyzing various features of transactions, we aim to build a model that accurately identifies fraudulent activities. This comprehensive analysis includes data preprocessing, exploratory data analysis (EDA), and machine learning techniques to create a robust fraud detection system.
 
-🔍 Looking for Python scripts used? Check them out here: [notebook folder](/notebook/)
+🤔🔍 Looking for Python scripts used? Check them out here: [notebook folder](/notebook/)
 
 ### Aim of the Project:
-1. Preprocess the dataset and handle categorical data.
-2. Explore and visualize the relationships between features.
-3. Train and evaluate a machine learning model for fraud detection.
-4. Predict the likelihood of a transaction being fraudulent.
+1. Exploring and preprocessing our dataset.
+2. Visualizing the relationships between features.
+3. Training and evaluating a machine learning model for fraud detection.
+4. Predicting the likelihood of a transaction being fraudulent.
 
 # The Analysis
 Each step in this project is designed to thoroughly investigate the dataset and develop a reliable fraud detection model. Here's our approach to addressing each objective:
