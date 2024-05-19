@@ -1,2 +1,0 @@
-path/to/your/largefile filter=lfs diff=lfs merge=lfs -text
-dataset.csv filter=lfs diff=lfs merge=lfs -text
