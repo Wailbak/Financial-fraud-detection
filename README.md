@@ -38,7 +38,7 @@ Each step in this project is designed to thoroughly investigate the dataset and 
 | oldbalanceDest   | -0.005885                 |
 | newbalanceOrig   | -0.008148                 |
 
-
+___
 ### 3. Machine Learning Model
 * **Data Splitting:** Dividing the dataset into training and testing sets.
 * **Model Training:** Training a Decision Tree Classifier to detect fraudulent transactions.
@@ -55,6 +55,7 @@ Each step in this project is designed to thoroughly investigate the dataset and 
 ### 4. Prediction
 * **Transaction Classification:** Predicting whether a transaction is fraudulent based on selected features.
 _e.g._
+
 | Features                          | Classification      |
 |-----------------------------------|---------------------|
 | type, amount, oldbalanceOrg, newbalanceOrig | Fraud               |
