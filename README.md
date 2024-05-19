@@ -1,6 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Bebas+Neue&size=55&pause=5000&color=F76200&random=false&width=800&height=200&lines=ONLINE+PAYMENTS+FRAUD+DETECTION)](https://git.io/typing-svg)
 # Introduction
-📉 Financial Fraud Detection Analysis: This project explores the detection of fraudulent online payment transactions. By analyzing various features of transactions, we aim to build a model that accurately identifies fraudulent activities. This comprehensive analysis includes data preprocessing, exploratory data analysis (EDA), and machine learning techniques to create a robust fraud detection system.
+📉 Fraud Detection Analysis: This project explores the detection of fraudulent online payment transactions. By analyzing various features of transactions, we aim to build a model that accurately identifies fraudulent activities. This comprehensive analysis includes data preprocessing, exploratory data analysis (EDA), and machine learning techniques to create a robust fraud detection system.
 
 🔍 Looking for Python scripts used? Check them out here: [Notebook folder](/notebook/)
 
@@ -40,10 +40,22 @@ Each step in this project is designed to thoroughly investigate the dataset and 
 * **Data Splitting:** Dividing the dataset into training and testing sets.
 * **Model Training:** Training a Decision Tree Classifier to detect fraudulent transactions.
 * **Model Evaluation:** Assessing the model's performance using accuracy, precision, recall, and F1 score.
-![Model Performance](assets/model_performance.png)
+
+| Metric            | Training Set             | Testing Set              |
+|-------------------|--------------------------|--------------------------|
+| Accuracy          | 0.9999998253689343       | 0.9997375295082843       |
+| Precision         | 1.0                      | 0.9998583698686616       |
+| Recall            | 0.9999998251430942       | 0.9998788250753409       |
+| F1 Score          | 0.9999999125715394       | 0.9998685973673836       |
+
 
 ### 4. Prediction
 * **Transaction Classification:** Predicting whether a transaction is fraudulent based on selected features.
+_e.g._
+| Features                          | Classification      |
+|-----------------------------------|---------------------|
+| type, amount, oldbalanceOrg, newbalanceOrig | Fraud               |
+
 
 ## ___Key Insights___
 ### Data Preprocessing
