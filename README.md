@@ -5,10 +5,10 @@
 🔍 Looking for Python scripts used? Check them out here: [Notebook folder](/notebook/)
 
 ### Aim of the Project:
-1. Preprocess the dataset and handle categorical data.
-2. Explore and visualize the relationships between features.
-3. Train and evaluate a machine learning model for fraud detection.
-4. Predict the likelihood of a transaction being fraudulent.
+1. Exploring and preprocessing the dataset.
+2. Exploring and visualizing the relationships between features.
+3. Training and evaluating a machine learning model for fraud detection.
+4. Predicting the likelihood of a transaction being fraudulent.
 
 # The Analysis
 Each step in this project is designed to thoroughly investigate the dataset and develop a reliable fraud detection model. Here's our approach to addressing each objective:
