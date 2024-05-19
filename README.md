@@ -1,14 +1,14 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Bebas+Neue&size=55&pause=5000&color=F76200&random=false&width=800&height=200&lines=ONLINE+PAYMENTS+FRAUD+DETECTION)](https://git.io/typing-svg)
 # Introduction
-🌍 Navigating Online Payment Security: Fraud Detection Analysis 📉 This project explores the detection of fraudulent online payment transactions. By analyzing various features of transactions, we aim to build a model that accurately identifies fraudulent activities. This comprehensive analysis includes data preprocessing, exploratory data analysis (EDA), and machine learning techniques to create a robust fraud detection system.
+📉 Fraud Detection Analysis: This project explores the detection of fraudulent online payment transactions. By analyzing various features of transactions, we aim to build a model that accurately identifies fraudulent activities. This comprehensive analysis includes data preprocessing, exploratory data analysis (EDA), and machine learning techniques to create a robust fraud detection system.
 
 🔍 Looking for Python scripts used? Check them out here: [Notebook folder](/notebook/)
 
 ### Aim of the Project:
-1. Exploring and preprocessing the dataset.
-2. Exploring and visualizing the relationships between features.
-3. Training and evaluating a machine learning model for fraud detection.
-4. Predicting the likelihood of a transaction being fraudulent.
+1. Preprocess the dataset and handle categorical data.
+2. Explore and visualize the relationships between features.
+3. Train and evaluate a machine learning model for fraud detection.
+4. Predict the likelihood of a transaction being fraudulent.
 
 # The Analysis
 Each step in this project is designed to thoroughly investigate the dataset and develop a reliable fraud detection model. Here's our approach to addressing each objective:
@@ -23,6 +23,18 @@ Each step in this project is designed to thoroughly investigate the dataset and 
 ![Transaction Types](assets/transaction_types.png)
 * **Correlation Analysis:** Examining the correlation between features and the target variable (_isFraud_).
 ![Correlation Heatmap](assets/correlation_heatmap.png)
+
+| Feature          | Correlation with isFraud |
+|------------------|---------------------------|
+| isFraud          | 1.000000                  |
+| amount           | 0.076688                  |
+| isFlaggedFraud   | 0.044109                  |
+| step             | 0.031578                  |
+| oldbalanceOrg    | 0.010154                  |
+| newbalanceDest   | 0.000535                  |
+| oldbalanceDest   | -0.005885                 |
+| newbalanceOrig   | -0.008148                 |
+
 
 ### 3. Machine Learning Model
 * **Data Splitting:** Dividing the dataset into training and testing sets.
@@ -39,8 +51,8 @@ Each step in this project is designed to thoroughly investigate the dataset and 
 - **Categorical to Numerical Transformation:** Successful conversion of transaction types and target labels for better analysis.
 
 ### Exploratory Data Analysis
-- **Transaction Types:** Visualization shows the distribution of various transaction types.
-- **Feature Correlation:** Identified significant correlations between certain features and fraudulent transactions.
+- **Transaction Types:** The visualization showed the distribution of various transaction types.
+- **Feature Correlation:** The table identified significant correlations between certain features and fraudulent transactions.
 
 ### Machine Learning Model
 - **Training and Testing:** The Decision Tree Classifier showed promising results in detecting fraud.
