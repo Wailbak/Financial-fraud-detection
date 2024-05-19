@@ -77,6 +77,7 @@ _e.g._
 ## 🏁 __Conclusion__
 The analysis and model development indicate that the dataset can be effectively used to detect fraudulent online transactions. The Decision Tree Classifier demonstrates reliable performance, making it a valuable tool for online payment fraud detection.
 
+___
 # Summary
 This project has enhanced my skills in data preprocessing, exploratory data analysis, and machine learning model development to address the critical issue of online payment fraud:
 
