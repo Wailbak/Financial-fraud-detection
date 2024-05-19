@@ -51,15 +51,13 @@ Each step in this project is designed to thoroughly investigate the dataset and 
 
 ### 4. Prediction
 * **Transaction Classification:** Predicting whether a transaction is fraudulent based on selected features.
-  
 _e.g._
-
 | Features                          | Classification      |
 |-----------------------------------|---------------------|
 | type, amount, oldbalanceOrg, newbalanceOrig | Fraud               |
 
 
-## ___Key Insights___
+## 💡 ___Key Insights___
 ### Data Preprocessing
 - **No Null Values:** The dataset is clean with no missing values.
 - **Categorical to Numerical Transformation:** Successful conversion of transaction types and target labels for better analysis.
@@ -76,7 +74,7 @@ _e.g._
 The analysis and model development indicate that the dataset can be effectively used to detect fraudulent online transactions. The Decision Tree Classifier demonstrates reliable performance, making it a valuable tool for online payment fraud detection.
 
 # Summary
-This project has enhanced our skills in data preprocessing, exploratory data analysis, and machine learning model development to address the critical issue of online payment fraud:
+This project has enhanced my skills in data preprocessing, exploratory data analysis, and machine learning model development to address the critical issue of online payment fraud:
 
 * __🔍 Data Exploration:__ Detailed analysis of transaction data, identifying key patterns and relationships.
 * __🤖 Machine Learning:__ Developed a classification model that accurately detects fraudulent transactions.
