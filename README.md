@@ -20,8 +20,11 @@ Each step in this project is designed to thoroughly investigate the dataset and 
 
 ### 2. Exploratory Data Analysis (EDA)
 * **Transaction Type Analysis:** Counting and visualizing the different transaction types.
+
 ![Transaction Types](assets/transaction_types.png)
+
 * **Correlation Analysis:** Examining the correlation between features and the target variable (_isFraud_).
+  
 ![Correlation Heatmap](assets/correlation_heatmap.png)
 
 | Feature          | Correlation with isFraud |
