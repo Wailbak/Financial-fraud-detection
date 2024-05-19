@@ -1,2 +1,2 @@
-If the notebook doesn't read automatically, open it via github.dev
-You can do that buy click-on the button dot in your keyboard [ . ]
+If the notebook "financial-fraud-detection.ipynb" file doesn't read after opening it
+Click-on the button dot in your keyboard [ . ]
