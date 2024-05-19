@@ -1,2 +1,2 @@
 If the notebook doesn't read automatically, open it via github.dev
-you can do that buy click-on the button dot in your keyboard [ . ]
+You can do that buy click-on the button dot in your keyboard [ . ]
