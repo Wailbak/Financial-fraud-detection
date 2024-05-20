@@ -57,17 +57,17 @@ ___
   
 _e.g._
 
+| Feature         | Value   |
+|-----------------|---------|
+| Type            | 4       |
+| Amount          | 9000.60 |
+| Old Balance Org | 9000.60 |
+| New Balance Orig| 0.0     |
 
-# Transaction Details
-
-| Feature         | Value   | Classification |
-|-----------------|---------|----------------|
-| Type            | 4       | Fraud          |
-| Amount          | 9000.60 |                |
-| Old Balance Org | 9000.60 |                |
-| New Balance Orig| 0.0     |                |
+**Classification: Fraud**
 
 
+___
 
 ## 💡 ___Key Insights___
 ### Data Preprocessing
