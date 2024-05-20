@@ -59,7 +59,7 @@ _e.g._
 
 | Features                          | Classification      |
 |-----------------------------------|---------------------|
-| type, amount, oldbalanceOrg, newbalanceOrig | Fraud               |
+| type [4], amount [9000.60], oldbalanceOrg [9000.60], newbalanceOrig [0.0] | Fraud               |
 
 
 ## 💡 ___Key Insights___
