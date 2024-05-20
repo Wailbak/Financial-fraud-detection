@@ -57,7 +57,7 @@ ___
   
 _e.g._
 
-| Feature         | Value   |
+| Features         | Values   |
 |-----------------|---------|
 | Type            | 4       |
 | Amount          | 9000.60 |
