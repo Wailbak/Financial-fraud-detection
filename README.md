@@ -54,6 +54,7 @@ ___
 
 ### 4. Prediction
 * **Transaction Classification:** Predicting whether a transaction is fraudulent based on selected features.
+* 
 _e.g._
 
 | Features                          | Classification      |
